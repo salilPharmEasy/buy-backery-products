@@ -60,7 +60,7 @@ export const itemsValues = {
 This section should list any major frameworks that you built your project using.
 - [React.js] 
 - [node-sass]
-- [react-router]
+- [react-router] (Context Api)
 
 
 ## Installation
