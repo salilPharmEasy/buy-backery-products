@@ -1,5 +1,8 @@
 # Buy Backery Products 
-Created a Ecommerce platforms to buy a backet product along with the checkout flow. The Project contains both mWeb,dWeb views and have checkout page as well.
+Created a Ecommerce platforms to buy a backet product along with the checkout flow(using context). The Project contains both mWeb,dWeb views and have checkout page as well.
+
+<img width="1238" alt="Screenshot 2022-09-19 at 12 01 24 AM" src="https://user-images.githubusercontent.com/34935249/190923561-a90b621c-089b-43a1-ba66-cb26ee4dbe61.png">
+<img width="327" alt="Screenshot 2022-09-19 at 12 01 48 AM" src="https://user-images.githubusercontent.com/34935249/190923575-3cb87e6c-cab1-4f28-9c14-18236828cc66.png">
 
 ## Features
 
@@ -57,10 +60,10 @@ export const itemsValues = {
 ```
 
 ## Build with
-This section should list any major frameworks that you built your project using.
+This section should list any major npm packages that you built your project using.
 - [React.js] 
 - [node-sass]
-- [react-router] (Context Api)
+- [react-router] (Context)
 
 
 ## Installation
