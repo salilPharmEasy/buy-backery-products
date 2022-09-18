@@ -1,4 +1,4 @@
-# Buyy Backery Products 
+# Buy Backery Products 
 Created a Ecommerce platforms to buy a backet product along with the checkout flow. The Project contains both mWeb,dWeb views and have checkout page as well.
 
 ## Features
