@@ -1,0 +1,83 @@
+.amountBifurcationContainer {
+  width: 300px;
+
+  h1 {
+    @media (max-width: 480px) {
+      font-size: 25px;
+    }
+  }
+
+  .emptySummary {
+    background: #f5f5f5;
+    font-size: 30px;
+    padding: 35px;
+  }
+
+  .summaryHeaderContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+
+    .closeButton {
+      display: none;
+      @media (max-width: 480px) {
+        display: table;
+      }
+    }
+  }
+
+  .outerContainer {
+    background: #f5f5f5;
+    border-radius: 8px;
+    padding: 20px;
+    .container {
+      .perItem {
+        display: flex;
+        justify-content: space-between;
+        font-size: 22px;
+        margin: 0px 0px 12px 0px;
+
+        .imageNameContainer {
+          display: flex;
+
+          .image {
+            margin: 0px 12px 0px 0px;
+          }
+        }
+
+        &:last-child {
+          margin: 0px 0px 12px 0px;
+        }
+      }
+    }
+    .line {
+      border-top: 2px solid #d5d5d5;
+    }
+    .subtotal {
+      display: flex;
+      justify-content: space-between;
+      margin: 12px 0px 12px 0px;
+      font-size: 22px;
+    }
+    .total {
+      display: flex;
+      justify-content: space-between;
+      margin: 12px 0px 0px 0px;
+      font-weight: bold;
+      font-size: 30px;
+    }
+
+    .buttonCheckout {
+      width: 100%;
+      padding: 8px;
+      margin: 12px 0px 0px 0px;
+      cursor: pointer;
+    }
+    .opConsole {
+      font-weight: bold;
+      font-size: 22px;
+      text-align: center;
+    }
+  }
+}
