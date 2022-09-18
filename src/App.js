@@ -27,8 +27,8 @@ const App = () => {
     });
 
     newState.totalAmount.subTotal = newSubTotal;
-    const { shipping, subTotal } = state.totalAmount;
-    newState.totalAmount.total = shipping + subTotal;
+    const { shipping } = state.totalAmount;
+    newState.totalAmount.total = shipping + newSubTotal;
     //update
     setState(newState);
   };
