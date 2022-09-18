@@ -15,7 +15,7 @@
     background: #fff;
 
     .plus {
-      border-right: 1px solid #3a3131;
+      border-left: 1px solid #3a3131;
       padding: 0px 10px 0px 10px;
 
       &:hover {
@@ -28,7 +28,7 @@
       text-align: center;
     }
     .minus {
-      border-left: 1px solid #3a3131;
+      border-right: 1px solid #3a3131;
       padding: 0px 10px 0px 10px;
 
       &:hover {

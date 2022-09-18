@@ -12,21 +12,32 @@ export default function QuantitySelect({ maxQuantity, quantity, id }) {
     <div className="quantitySelectContainer">
       <div className="innerContainer">
         <div
-          className="plus"
-          onClick={() =>
-            updateQuantity({ type: "INCREMENT", maxQuantity, quantity: newQuantity, id })
-          }
-        >
-          +
-        </div>
-        <div className="quantityCount">{newQuantity}</div>
-        <div
           className="minus"
           onClick={() =>
-            updateQuantity({ type: "DECREMENT", maxQuantity, quantity: newQuantity, id })
+            updateQuantity({
+              type: "DECREMENT",
+              maxQuantity,
+              quantity: newQuantity,
+              id,
+            })
           }
         >
           -
+        </div>
+
+        <div className="quantityCount">{newQuantity}</div>
+        <div
+          className="plus"
+          onClick={() =>
+            updateQuantity({
+              type: "INCREMENT",
+              maxQuantity,
+              quantity: newQuantity,
+              id,
+            })
+          }
+        >
+          +
         </div>
       </div>
     </div>
