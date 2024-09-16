@@ -1,0 +1,39 @@
+.quantitySelectContainer {
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+  position: absolute;
+  width: 100%;
+  margin: -14px 0px 0px 0px;
+
+  .innerContainer {
+    border: 1px solid #3a3131;
+    display: flex;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #fff;
+
+    .plus {
+      border-left: 1px solid #3a3131;
+      padding: 0px 10px 0px 10px;
+
+      &:hover {
+        background: #8181816e;
+      }
+    }
+    .quantityCount {
+      padding: 0px 6px 0px 6px;
+      width: 30px;
+      text-align: center;
+    }
+    .minus {
+      border-right: 1px solid #3a3131;
+      padding: 0px 10px 0px 10px;
+
+      &:hover {
+        background: #8181816e;
+      }
+    }
+  }
+}
